@@ -29,7 +29,7 @@ function countBmi() {
     p.push("female");
   }
 
-  // form.reset();
+  form.reset();
   var bmi = Number(p[2]) / (((Number(p[1]) / 100) * Number(p[1])) / 100);
   var result = '';
 
