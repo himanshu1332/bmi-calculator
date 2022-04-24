@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 880px) {
+  .container{
+    width: 93%;
+  }  
+}
+
+body {
+  background-color: rgb(202, 202, 143);
+  text-align: center;
+  /* height: 100vh; */
+  margin: 100px auto;
+  width: fit-content;
+  font-family: 'Roboto', sans-serif;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.letter {
+  color: blueviolet;
+}
+
+.container {
+    font-size: 1.1rem;
+  align-items: center;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(141, 121, 214);
+  border-radius: 25px;
+  background-color: aliceblue;
+  padding: 2%;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.container:hover{
+    box-shadow: 0 0 60px 0 #ccc;
+}
+
+input {
+  outline: none;
+}
+.container input[type="radio"] {
+  background-color: rgb(212, 240, 240);
+  border: 0px;
+  margin-right: 5px;
+}
+
+.container input[type="text"] {
+  width: 15%;
+  background-color: rgb(212, 240, 240);
+  border-radius: 10px;
+  border: 0px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.row {
+  width: 75%;
+  margin: 6px;
+  padding: 10px;
+}
+
+.row span {
+  margin-right: 6px;
+}
+
+button {
+  margin-top: 10px;
+  cursor: pointer;
+  width: 70px;
+  height: 31px;
+  color: rgb(37, 35, 35);
+  border-radius: 9px;
+  background-color: violet;
+  outline: none;
+}
+
+button:hover{
+    background-color: #0a8ef2;
+}
+
+h1 {  
+  font-size: 30px;  
+  font-weight: 300;  
+  text-align: center;  
+  color: #289df6;  
+  padding-top: 15px;  
+  display: block;  
+ }  
+ h2 {  
+  font-size: 22px;  
+  font-weight: 300;  
+  text-align: center;  
+ } 
